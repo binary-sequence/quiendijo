@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package games.mentha.quiendijo;
+package mentha.games.quiendijo;
 
 public final class R {
     public static final class attr {

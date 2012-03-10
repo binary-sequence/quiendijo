@@ -1,5 +1,6 @@
-package games.mentha.quiendijo;
+package mentha.games.quiendijo;
 
+import mentha.games.quiendijo.R;
 import android.app.Activity;
 import android.os.Bundle;
 
