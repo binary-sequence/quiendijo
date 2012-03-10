@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvTitulo"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvFrase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tvFrase" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnRespuesta1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="btnRespuesta1" />
+
+        <Button
+            android:id="@+id/btnRespuesta2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="btnRespuesta2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnRespuesta3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="btnRespuesta3" />
+
+        <Button
+            android:id="@+id/btnRespuesta4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="btnRespuesta4" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher" />
+
+</LinearLayout>

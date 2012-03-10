@@ -19,7 +19,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="mentha.games.quiendijo.FrmUsuarios"
+            android:name=".FrmUsuarios"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".FrmJuego"
             android:label="@string/app_name" >
         </activity>
     </application>
