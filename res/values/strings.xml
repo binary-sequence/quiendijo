@@ -4,5 +4,8 @@
     <string name="tvTitulo">Who says...?</string>
     <string name="btnNuevaPartida">New game</string>
     <string name="btnEstadisticas">Statistics</string>
+    <string name="tvSeleccionaUsuario">Select user</string>
+    <string name="etNick">Insert new nick...</string>
+    <string name="btnNuevoNick">Create nick</string>
 
 </resources>

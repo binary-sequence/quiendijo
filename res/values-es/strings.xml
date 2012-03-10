@@ -3,4 +3,7 @@
     <string name="tvTitulo">¿Quien dijo...?</string>
     <string name="btnNuevaPartida">Nueva partida</string>
     <string name="btnEstadisticas">Estadísticas</string>
+    <string name="tvSeleccionaUsuario">Selecciona usuario</string>
+    <string name="etNick">Introduce nuevo nick...</string>
+    <string name="btnNuevoNick">Crear nick</string>
 </resources>
