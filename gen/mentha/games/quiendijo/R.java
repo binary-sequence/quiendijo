@@ -12,6 +12,9 @@ public final class R {
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
+        public static final int ic_tab_general=0x7f020001;
+        public static final int ic_tab_off=0x7f020002;
+        public static final int ic_tab_on=0x7f020003;
     }
     public static final class id {
         public static final int btnEstadisticas=0x7f05000a;
@@ -25,6 +28,7 @@ public final class R {
         public static final int imgLogo=0x7f050008;
         public static final int linearLayout1=0x7f050002;
         public static final int linearLayout2=0x7f050005;
+        public static final int lvAutores=0x7f050010;
         public static final int lvUsuarios=0x7f05000e;
         public static final int tvFrase=0x7f050001;
         public static final int tvNick=0x7f05000f;
@@ -32,10 +36,13 @@ public final class R {
         public static final int tvTitulo=0x7f050000;
     }
     public static final class layout {
-        public static final int frmjuego=0x7f030000;
-        public static final int frmmenu=0x7f030001;
-        public static final int frmusuarios=0x7f030002;
-        public static final int lvusuariositem=0x7f030003;
+        public static final int frmestadisticas=0x7f030000;
+        public static final int frmjuego=0x7f030001;
+        public static final int frmmenu=0x7f030002;
+        public static final int frmusuarios=0x7f030003;
+        public static final int lvusuariositem=0x7f030004;
+        public static final int tabautores=0x7f030005;
+        public static final int tabgeneral=0x7f030006;
     }
     public static final class string {
         public static final int app_name=0x7f040000;
