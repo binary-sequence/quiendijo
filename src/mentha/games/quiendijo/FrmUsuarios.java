@@ -1,9 +1,9 @@
 package mentha.games.quiendijo;
 
-import mentha.games.quiendijo.R;
 import android.app.ListActivity;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.ListView;
 
 public class FrmUsuarios extends ListActivity {
 	/** Called when the activity is first created. */
@@ -14,5 +14,8 @@ public class FrmUsuarios extends ListActivity {
 
 		Button btnNuevoNick = (Button) this.findViewById(R.id.btnNuevoNick);
 		btnNuevoNick.setOnClickListener(new BtnNuevoNick_Click(this));
+
+		ListView lvUsuarios = getListView();
+		lvUsuarios.setOnItemClickListener(new LvUsuarios_Click(this));
 	}
 }
