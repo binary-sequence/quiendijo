@@ -11,7 +11,7 @@ public class BtnEstadisticas_Click implements OnClickListener {
 		this.frmMenu = frmMenu;
 	}
 
-	public void onClick(View arg0) {
+	public void onClick(View v) {
 		// TODO Auto-generated method stub
 
 	}
