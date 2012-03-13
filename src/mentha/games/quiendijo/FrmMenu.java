@@ -14,5 +14,9 @@ public class FrmMenu extends Activity {
 		Button btnNuevaPartida = (Button) this
 				.findViewById(R.id.btnNuevaPartida);
 		btnNuevaPartida.setOnClickListener(new BtnNuevaPartida_Click(this));
+
+		Button btnEstadisticas = (Button) this
+				.findViewById(R.id.btnEstadisticas);
+		btnEstadisticas.setOnClickListener(new BtnEstadisticas_Click(this));
 	}
 }
