@@ -26,6 +26,10 @@
             android:name=".FrmJuego"
             android:label="@string/app_name" >
         </activity>
+        <activity
+            android:name=".FrmEstadisticas"
+            android:label="@string/app_name" >
+        </activity>
     </application>
 
 </manifest>
