@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">Quien dijo...</string>
     <string name="tvTitulo">Who says...?</string>
     <string name="btnNuevaPartida">New game</string>
@@ -7,5 +8,8 @@
     <string name="tvSeleccionaUsuario">Select user</string>
     <string name="etNick">Insert new nick...</string>
     <string name="btnNuevoNick">Create nick</string>
+    <string name="tvContinuar">Continue?</string>
+    <string name="btnSi">Yes</string>
+    <string name="btnNo">No</string>
 
 </resources>

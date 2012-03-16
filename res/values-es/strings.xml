@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="tvTitulo">¿Quien dijo...?</string>
     <string name="btnNuevaPartida">Nueva partida</string>
     <string name="btnEstadisticas">Estadísticas</string>
     <string name="tvSeleccionaUsuario">Selecciona usuario</string>
     <string name="etNick">Introduce nuevo nick...</string>
     <string name="btnNuevoNick">Crear nick</string>
+    <string name="tvContinuar">¿Continuar?</string>
+    <string name="btnSi">Sí</string>
+
 </resources>
