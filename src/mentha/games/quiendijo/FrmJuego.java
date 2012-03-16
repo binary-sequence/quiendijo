@@ -27,6 +27,9 @@ public class FrmJuego extends Activity {
 
 		Button btnSi = (Button) this.findViewById(R.id.btnSi);
 		btnSi.setOnClickListener(new BtnContinuar_Click(this));
+
+		Button btnNo = (Button) this.findViewById(R.id.btnNo);
+		btnNo.setOnClickListener(new BtnCancelar_Click(this));
 	}
 
 	private void cargarFrase() {
